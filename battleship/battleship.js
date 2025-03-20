@@ -35,6 +35,7 @@ while (isSunk == false) {
 }
 
 //end of the loop
+var accuracy = (guesses > 0 ? (hits / guesses) * 100 : 0).toFixed(2);
 
 var stats = "You sank the battleship at: " + guesses + "guesses" + "with the accuracy of: " + (3/guesses);
 
