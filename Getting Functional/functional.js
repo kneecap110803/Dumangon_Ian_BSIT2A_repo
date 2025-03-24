@@ -44,3 +44,7 @@ function bark(dogName, weight) {
 
 bark("jay, 20")
 bark("kylf, 100")
+bark("justine, 20")
+bark("hans, 100")
+bark("brent, 20")
+
