@@ -1,0 +1,32 @@
+/ function calculateArea(r) {
+//     var area;
+//     if ( r<= 0){
+//         return "ruru";
+//     } else {
+//         area = Math.PI * r * r;
+//         return area ; 
+//     }
+// }
+
+// var radius = 5.2;
+// var theArea = calculateArea (radius);
+// console.log ("The area is: " + theArea);
+function Named(firstname, Lastname) {
+    var fullnamed = "My full name is" + firstname + " " + Lastname;
+
+    if (Lastname == "Dumangon") {
+        fullnamed = "MR. Dumangon bumangon welcum back";
+    } else if (Lastname == "Tubo") {
+        fullnamed = "Hi, Mr. Tubo wrong lulu "
+    }
+    return fullnamed;
+}
+
+var firstname = 'Ian Miguel';
+var Lastname = 'Dumangon';
+
+var fullnamed = Named(firstname, Lastname);
+
+console.log(fullnamed);
+console.log(Named(" Justine Tubo "));
+console.log(Named(" Hans Dela Cruz "));
